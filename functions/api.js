@@ -5,8 +5,10 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 
-const cloudDB = 'mongodb+srv://magallanesmyca:mscmarinduque_19@cluster0.5vtkfd5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-const localDB = 'mongodb://localhost:27017/ServerlessApi/MagallanesApi';
+const cloudDB = 'mongodb+srv://magallanesmyca9:magallanesmyca@cluster0.m1cvhgz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const localDB = 'mongodb://localhost:27017/test/authors';
+
+const pass = 'magallanesmyca'
 
 app.use(cors());
 app.use(express.json());
